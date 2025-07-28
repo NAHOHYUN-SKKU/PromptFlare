@@ -2,8 +2,6 @@ from PIL import Image
 import numpy as np
 import torch
 import torchvision.transforms as T
-import random
-import cv2
     
 def prepare_image(image):
     image = image.resize((512, 512), resample=Image.BICUBIC)
