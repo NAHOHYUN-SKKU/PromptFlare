@@ -31,7 +31,7 @@ The 'image_file_name' column contains the file name of each image, and the 'prom
 A png image with the same name as the image file name must exist in all three folders: original, mask, and protected.
 ```
 python inpaint.py \
-    --annotation [write_your_annotation] \
+    --annotation [write_your_annotation_file_path] \
     --original [write_your_original_image_folder_path] \
     --mask [write_your_mask_folder_path] \
     --protected [write_your_protected_image_folder_path] \
