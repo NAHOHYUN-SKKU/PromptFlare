@@ -26,9 +26,9 @@ python protect.py
 ```
 
 ## Inapint the Protected Image
-The annotation file is in csv format.
-The 'image_file_name' column contains the file name of each image, and the 'prompt' column contains the prompt for inpainting the image.
-A png image with the same name as the image file name must exist in all three folders: original, mask, and protect.
+The annotation file is in csv format.   
+The 'image_file_name' column contains the file name of each image, and the 'prompt' column contains the prompt for inpainting the image.   
+A png image with the same name as the image file name must exist in all three folders: original, mask, and protected.
 ```
 python inpaint.py \
     --annotation [write_your_annotation] \
