@@ -32,8 +32,8 @@ def main(args):
         
         # print(image_path, mask_path, image_file)
         assert os.path.exists(mask_path), f"There must be a mask with the same name as the image."
-        if os.path.exists(output_path):
-            continue
+        # if os.path.exists(output_path):
+        #     continue
         
         init_image = Image.open(image_path).convert("RGB")
         mask_image = Image.open(mask_path).convert("RGB")
