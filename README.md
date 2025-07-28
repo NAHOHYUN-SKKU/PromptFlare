@@ -43,3 +43,10 @@ Or if you just want to try it on an uploaded Sample image:
 ```
 python inpaint.py
 ```
+
+## Results
+![](media/result.png)
+
+## Citation
+```
+```
