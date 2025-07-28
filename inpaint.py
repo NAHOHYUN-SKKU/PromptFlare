@@ -35,7 +35,7 @@ def inpaint(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--annotation", dest="annotation_path", action="store", default="./annotations.csv")
+    parser.add_argument("--annotation", dest="annotation_path", action="store", default="./sample/annotations.csv")
     
     parser.add_argument("--model", dest="model_name", action="store", default="runwayml/stable-diffusion-inpainting")
     parser.add_argument("--guidance_scale", dest="guidance_scale", action="store", default=7.5, type=float)
