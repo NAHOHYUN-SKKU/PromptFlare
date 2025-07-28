@@ -2,6 +2,8 @@
 <h2> PromptFlare: Prompt-Generalized Defense via Cross-Attention Decoy in Diffusion-Based Inpainting [MM 2025]</h2>
 </div>
 
+![](media/teaser.png)
+
 ## Quick Installation
 ```
 git clone https://github.com/NAHOHYUN-SKKU/PromptFlare.git
