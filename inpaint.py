@@ -1,13 +1,10 @@
 import os
-import csv
-import json
 import argparse
 import pandas as pd
 import numpy as np
 import torch
 from PIL import Image, ImageOps
 from diffusers import StableDiffusionInpaintPipeline
-from IPython.display import display
 
 from utils import *
 
@@ -39,6 +36,7 @@ def inpaint(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--annotation", dest="annotation_path", action="store", default="./annotations.csv")
+    
     parser.add_argument("--model", dest="model_name", action="store", default="runwayml/stable-diffusion-inpainting")
     parser.add_argument("--guidance_scale", dest="guidance_scale", action="store", default=7.5, type=float)
     parser.add_argument("--inference", dest="num_inference_steps", action="store", default=50, type=int)
@@ -49,7 +47,7 @@ if __name__ == '__main__':
     parser.add_argument("--protected", dest="protected_folder_path", action="store", default="./sample/protected_images")
     parser.add_argument("--output", dest="output_folder_path", action="store", default="./sample/inpainted_images")
     
-    parser.add_argument("--batch", dest="batch_size", action="store", default=24, type=int)
+    parser.add_argument("--batch", dest="batch_size", action="store", default=10, type=int)
     
     args = parser.parse_args()
 
