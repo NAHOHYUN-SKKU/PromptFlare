@@ -1,0 +1,5 @@
+pandas
+accelerate
+diffusers==0.21.2
+transformers==4.27.3
+huggingface_hub==0.25.0
