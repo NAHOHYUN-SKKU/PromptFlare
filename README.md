@@ -22,7 +22,7 @@ python protect.py \
     --mask [write_your_mask_folder_path] \
     --output [write_your_output_folder_path]
 ```
-Or if you just want to try it on an uploaded Sample image:
+Or if you just want to try it on an uploaded Sample images:
 ```
 python protect.py
 ```
@@ -39,7 +39,7 @@ python inpaint.py \
     --protected [write_your_protected_image_folder_path] \
     --output [write_your_output_folder_path]
 ```
-Or if you just want to try it on an uploaded Sample image:
+Or if you just want to try it on an uploaded Sample images:
 ```
 python inpaint.py
 ```
