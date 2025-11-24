@@ -51,4 +51,11 @@ python inpaint.py
 
 ## Citation
 ```
+@inproceedings{na2025promptflare,
+  title={PromptFlare: Prompt-Generalized Defense via Cross-Attention Decoy in Diffusion-Based Inpainting},
+  author={Na, Hohyun and Hong, Seunghoo and Woo, Simon S},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={10544--10553},
+  year={2025}
+}
 ```
