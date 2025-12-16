@@ -2,7 +2,8 @@
 <h2> PromptFlare: Prompt-Generalized Defense via Cross-Attention Decoy in Diffusion-Based Inpainting [MM 2025]</h2>
 </div>
 
-[paper](https://www.arxiv.org/abs/2508.16217)
+[arxiv](https://www.arxiv.org/abs/2508.16217)
+[MM](https://dl.acm.org/doi/10.1145/3746027.3755763)
 
 ![](media/teaser.png)
 
